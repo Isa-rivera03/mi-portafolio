@@ -32,6 +32,7 @@ Estoy comprometida con la creación de soluciones escalables y sostenibles que a
 
 🔗 [Mi GitHub](https://github.com/Isa-rivera03)  
 🔗 [Ver Portafolio Desplegado](https://isa-rivera03.github.io/mi-portafolio/) 
+🔗 [Mi Portafolio](https://isa-rivera03.github.io/mi-portafolio/)  
 
 ---
 
