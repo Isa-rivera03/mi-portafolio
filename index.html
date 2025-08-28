@@ -3,53 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="style/estilos.css">
         <title>MI PORTAFOLIO</title>
     </head>
     <body>
       <div class="contenedor">
           <h1 class="titulo"> MI PORTAFOLIO </h1> 
-          <center><img src="imagenes/img1.png" width="150" ></center>
+          <center><img src="img/img1.png" width="150" ></center>
           </body>
-          <div  class="col2"  align="center" style="background-color: black; color:white ">
-            <th> 
-              <h2> informacion personal </h2>
-            </th> 
-          </div>
-          <table align="center">
-              <tr>
-                <td><strong> Nombre: </strong></td>
-                <td> Isabella </td>
-              </tr>
-              <tr>
-                <td><strong> Apellidos: </strong></td>
-                <td> Rivera Lopez </td>
-              </tr>
-              <tr>
-                <td><strong> Fecha Nacimiento: </strong></td>
-                <td> 03/02/2006 </td>
-              </tr>
-              <tr>
-                <td><strong> sexo: </strong></td>
-                <td> Femenino </td>
-              </tr>
-              <tr>
-                <td><strong> Estado Civil: </strong></td>
-                <td> Soltera </td>
-              </tr>
-              <tr>
-                <td><strong> Direccion: </strong></td>
-                <td> Av del Rio </td>
-              </tr>
-          </table> 
-          <div class="col2 "  align="center" style="background-color: black; color:white ">
-            <th> 
-              <h2> Perfil Profesional </h2>
-            </th> 
-          </div>
-          <center><table>
-              <tr>
-                <td> Ingeniera en Software con más de 1 años de experiencia en el desarrollo de aplicaciones web y móviles.
+          <section class="seccion">
+      <h2>Información Personal</h2>
+      <table>
+        <tr><td><strong>Nombre:</strong></td><td>Isabella</td></tr>
+        <tr><td><strong>Apellidos:</strong></td><td>Rivera López</td></tr>
+        <tr><td><strong>Fecha de Nacimiento:</strong></td><td>03/02/2006</td></tr>
+        <tr><td><strong>Sexo:</strong></td><td>Femenino</td></tr>
+        <tr><td><strong>Estado Civil:</strong></td><td>Soltera</td></tr>
+        <tr><td><strong>Dirección:</strong></td><td>Av del Río</td></tr>
+      </table>
+    </section>
+
+    <section class="seccion">
+      <h2>Perfil Profesional</h2>
+      <p>
+        Ingeniera en Software con más de 1 años de experiencia en el desarrollo de aplicaciones web y móviles.
                   Especializado en el diseño y la implementación de soluciones innovadoras que mejoran la eficiencia y la experiencia del usuario. 
                   Poseo un sólido conocimiento en lenguajes de programación como Java, Python y JavaScript.
                   Mi enfoque se centra en la calidad del código y las mejores prácticas de desarrollo ágil, lo que me permite colaborar eficazmente 
@@ -57,39 +34,31 @@
                   los estándares de calidad.
                   Apasionado por la tecnología y la resolución de problemas, busco constantemente oportunidades para aprender y crecer en el 
                   campo del desarrollo de software. Estoy comprometido con la creación de soluciones escalables y sostenibles que aporten valor 
-                  a los usuarios y a la organización. </td>
-              </tr>
-          </table></center>  
-          <div class="col2 "  align="center" style="background-color: black; color:white ">
-            <th> 
-              <h2> informacion Laboral </h2>
-            </th> 
-          </div>
-            <ul>
-                <li type="disc"> Acesora de ventas  </li>
-                <li type="disc"> Administadora de ventas </li>
-                <li type="disc"> Gestion de campañas publicitarias </li>
-            </ul>
-          <div class="col2 "  align="center" style="background-color: black; color:white ">
-            <th> 
-              <h2> Portafolio </h2>
-            </th> 
-          </div>
-          <table>
-              <ul>
-                <a href="URL"> Este es mi Enlace 1 </a>
-              </ul>
-              <ul>
-                <a href="URL"> Este es mi Enlace 2 </a>
-              </ul>
-          </table> 
-          <div class="col2 "  align="center" style="background-color: black; color:white ">
-            <th> 
-              <h2> Observaciones </h2>
-            </th> 
-          </div>
-          <div class="observaciones"></div>
-          <button class="btn-enviar">Enviar</button>
-      </div>
-    </body>  
+                  a los usuarios y a la organización.
+    </section>
+
+    <section class="seccion">
+      <h2>Experiencia Laboral</h2>
+      <table>
+        <tr><td>Asesora de ventas</td></tr>
+        <tr><td>Administradora de ventas</td></tr>
+        <tr><td>Gestión de campañas publicitarias</td></tr>
+      </table>
+    </section>
+
+    <section class="seccion">
+      <h2>Portafolio</h2>
+      <table>
+        <tr><td><a href="#">Enlace a proyecto 1</a></td></tr>
+        <tr><td><a href="#">Enlace a proyecto 2</a></td></tr>
+      </table>
+    </section>
+
+    <section class="seccion">
+      <h2>Observaciones</h2>
+      <textarea placeholder="Escribe aquí tus observaciones..."></textarea>
+      <center><button class="btn-enviar">Enviar</button></center>
+    </section>
+  </div>
+</body>
 </html>
